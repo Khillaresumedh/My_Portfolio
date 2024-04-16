@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "aI8r9OaMqAK4Xmftg",
+      });
+   })();
+</script>
+
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#qualification">Qualification</a></li> <!-- Add Qualification after Skills -->
+          <li><a href="#services">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://github.com/Khillaresumedh" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sumedhkhillare/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/sumedh.khillare/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    
+    
+
+    <!-- Home Section Start -->
+<section class="home" id="home">
+  <div class="home-content">
+    <div class="text">
+      <div class="text-one">Hello,</div>
+      <div class="text-two">I'm Sumedh Khillare</div>
+      <div class="text-three">Web | Frontend | React.js Developer</div>
+    </div>
+    <div class="button">
+    
+      <button id="contact-btn">Contact me</button>
+    </div>
+  </div>
+</section>
+
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">My Introduction</div>
+            <p>
+              Hello,👋 I'm Sumedh Khillare a 26-year-old, BE(ENTC) graduated who is passionate Front-End Developer with a strong focus on creating engaging experiences. Proficient in HTML, CSS and JavaScript with experience in modern framework like React and Detail-oriented and committed to delivering high-quality work, Actively engaged in continuos learning to stay up-to-date with industry trends. Seeking an opportunity to join a forward-thinking organization, contribute skills, and grow professionally ✍🏻
+            </p>
+            <div class="button">
+              <button id="download-cv-btn">Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>As a budding developer, I bring a foundation in key frontend technologies and a passion for learning. From crafting clean and responsive web interfaces with HTML, CSS, and JavaScript to exploring the intricacies of modern frameworks like React.js, my journey in web development is marked by curiosity and eagerness to grow. With a commitment to mastering new tools and problem-solving, I'm ready to contribute to innovative projects and continue evolving in this dynamic field.</p>
+            <div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML5</div>
+              <div class="per">95%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS3</div>
+              <div class="per">85%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">75%</div>
+            </div>
+            <div class="box">
+              <div class="topic">React.JS</div>
+              <div class="per">85%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Qualification Section Start -->
+<section class="qualification" id="qualification">
+  <div class="content">
+    <div class="title"><span>My Qualifications</span></div>
+    <div class="qualification-details">
+      <div class="education">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <div class="education-item">
+              <div class="degree">Bachelor of Engineering</div>
+              <div class="details">
+                <div class="university">Savitribai Phule university, Pune</div>
+                <div class="year">Graduated in 2023</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="education-item">
+              <div class="degree">Diploma in ENTC</div>
+              <div class="details">
+                <div class="university">Indira Institute Of Technology, Nanded</div>
+                <div class="year">Completed in 2019</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="education-item">
+              <div class="degree">Higher Secondary School Certificate (HSC)</div>
+              <div class="details">
+                <div class="university">Shree Shivaji Jr. Collage, Nanded</div>
+                <div class="year">Passed in 2016</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="certifications">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Web Development & React Course -</li>
+          <li>Seven Mentor Pvt.Ltd Software Training Institute Pune, Aug. 2023</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- My Projects Section Start -->
+<section class="services" id="services">
+  <div class="content">
+    <div class="title"><span>My Projects</span></div>
+    <div class="boxes">
+      <a href="https://khillaresumedh.github.io/Edusity_app/"  class="box" id="project1" target="_blank">
+        <div class="icon">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <div class="topic">Tour Management System</div>
+        <p class="description"> Design and Developed a Comprehensive web-based tour management service using React,
+Streamlined the process of planning and organizing group tours. Simplified tasks such as searching places and
+booking facilities.</p>
+      </a>
+      <a href="graphic-design.html" class="box" id="project2">
+        <div class="icon">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <div class="topic">Edusity_app</div>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+      </a>
+      <a href="digital-marketing.html" class="box" id="project3">
+        <div class="icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="topic">Digital Clock</div>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+    <!-- Contact Me section Start -->
+    <section id="contact" class="contact">
+      <div class="container">
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">Feel free to get in touch with me. I'm always open to new opportunities and collaborations!</p>
+          
+          <div class="contact-form">
+              <form id="contact-form" method="POST" action="send_message.php">
+                  <div class="form-group">
+                      <label for="name">Your Name</label>
+                      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Your Email</label>
+                      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn" onclick="sendEmail()">Send Message</button>
+
+              </form>
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Sumedh</a> | &#169; 2024 All Rights Reserved</span>
+      </div>
+      
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
